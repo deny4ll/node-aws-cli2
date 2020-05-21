@@ -4,4 +4,4 @@ RUN apt install unzip jq -y
 RUN curl "https://d1vvhvl2y92vvt.cloudfront.net/awscli-exe-linux-x86_64.zip" -o "awscliv2.zip"
 RUN unzip awscliv2.zip
 RUN ./aws/install
-RUN aws2 --version
+RUN aws --version
